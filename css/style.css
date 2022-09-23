@@ -33,7 +33,7 @@ footer {
 /* HEADER */
 
 #header {
-    background-color: #072146;
+    background: linear-gradient(#82bdcf,#072146);
 }
 
 #header .logo {
@@ -71,7 +71,9 @@ footer {
 }
 
 #header .menu ul li a:hover {
-    color: #1e85a5;    
+    color: #1e85a5;   
+    transition: 1s; 
+
 }
 
 /* FOOTER */
@@ -243,6 +245,7 @@ footer {
     height: 70px;
 }
 
+
 /* INICIO */
 
 /* cotización */
@@ -403,22 +406,22 @@ footer {
     margin-bottom: 100px;
 }
 
- #main #flotas .nuestras-flotas {
+ #main #flotas #titulo-flotas {
     display: inline-block;
     margin-top: 50px;
     margin-left: 550px;
     border: solid 20px #A0A4A4;
     background-color: #A0A4A4;
     color: white;
-}
+ }
 
-#main #flotas #hi-road {
+#main #flotas #hi {
     border: solid 4px #A0A4A4;
     background-color: #A0A4A4;
     padding: 10px;
     margin: 60px;
 }
-#main #flotas #hi-road .camion1 {
+#main #flotas #hi .camion1 {
     width: 312px;
     height: 220px;
     margin-top: 20px;
@@ -427,17 +430,17 @@ footer {
     border: solid 20px white;
 }
 
-#main #flotas #hi-road .parrafo-camion1 {
+#main #flotas #hi .parrafo-camion1 {
 margin-left: 20px;
 }
 
-#main #flotas #iveco-stralis {
+#main #flotas #stralis {
     border: solid 4px #A0A4A4;
     background-color: #A0A4A4;
     margin: 60px;
 }
 
-#main #flotas #iveco-stralis .camion2 {
+#main #flotas #stralis .camion2 {
     width: 312px;
     height: 220px;
     margin-top: 20px;
@@ -446,17 +449,17 @@ margin-left: 20px;
     border: solid 20px white;
 }
 
-#main #flotas #iveco-stralis .parrafo-camion2 {
+#main #flotas #stralis .parrafo-camion2 {
     margin-left: 20px;
 }
 
-#main #flotas #scania-p {
+#main #flotas #scania {
     border: solid 4px #A0A4A4;
     background-color: #A0A4A4;
     margin: 60px;
 }
 
-#main #flotas #scania-p .camion3 {
+#main #flotas #scania .camion3 {
     width: 312px;
     height: 220px;
     margin-top: 20px;
@@ -465,11 +468,10 @@ margin-left: 20px;
     border: solid 20px white;
 }
 
-#main #flotas #scania-p .parrafo-camion3 {
+#main #flotas #scania .parrafo-camion3 {
     margin-left: 20px;
     margin-bottom: 10px;
 }
-
 
 
 /* SOBRE NOSOTROS */
@@ -484,11 +486,12 @@ margin-left: 20px;
     color: #072146;
 }
 
-#main #nav-nosotros {
-   text-align: start;
-   margin-left: 50px;
-   
-}
+#main #nav-nosotros a:hover {
+    text-align: start;
+    margin-left: 50px;
+    transition: 1s;
+ }
+
 
 #main #nav-nosotros .historia {
     display: block;
@@ -530,9 +533,10 @@ margin-left: 20px;
 
 /* sobre nosotros - misión, visión y valores */
 
-#main #nav-nosotros2 {
+#main #nav-nosotros2 a:hover {
     text-align: start;
     margin-left: 50px;
+    transition: 1s;
 }
 
 #main #nav-nosotros2 .historia {
