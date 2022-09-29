@@ -7,33 +7,20 @@
 
 /* GLOBALES */
 
-/* GRID */
-
-.container {
-    display: grid;
-    grid-template-areas: 
-    "header header header"
-    "main main main"
-    "footer footer footer";
-    height: 100vh;
-}
-
-header {
-    grid-area: header;
+body {
+    background: beige;
 }
 
 main {
-    grid-area: main;
-}
-
-footer {
-    grid-area: footer;
+    background-color: beige;
 }
 
 /* HEADER */
 
 #header {
     background: linear-gradient(#82bdcf,#072146);
+    width: 100%;
+    height: auto;
 }
 
 #header .logo {
@@ -41,45 +28,27 @@ footer {
     height: auto;
     margin-top: 20px;
     margin-left: 20px;
+
 }
 
 #header .titulo {
     display: inline-block;
-    color: white;
-    font-size: 30px;
-    vertical-align: middle;
-    margin-left: 20px;
-    margin-bottom: 60px;   
-}
- 
-#header .menu {
-    text-align: center;
-    word-spacing: 35px;
-}
-
-#header .menu ul li {
-    display: inline;
-}
-
-#header .menu ul li a {
-    color: aliceblue;
-    font-size: large;
-    text-decoration: none;
-    position: relative;
-    bottom: 50px;
-    left: 490px;
-}
-
-#header .menu ul li a:hover {
-    color: #1e85a5;   
-    transition: 1s; 
 
 }
+
+
 
 /* FOOTER */
 
+container-footer {
+    display: grid;
+
+}
+
 #footer {
     background-color: #072146;
+    width: 100%;
+    height: auto;
 }
 
 /* intro */
@@ -87,8 +56,6 @@ footer {
 #footer #intro .footer-logo {
     width: 110px;
     height: auto;
-    margin-top: 10px;
-    margin-left: 10px;
 }
 
 #footer #intro .footer-titulo {
@@ -96,8 +63,6 @@ footer {
     font-size: 25px;
     display: inline-block;
     vertical-align: top;
-    margin-top: 30px;
-    margin-left: 5px;
 }
 
 /* app */
@@ -106,9 +71,7 @@ footer {
     color: aliceblue;
     font-size: 14px;
     text-decoration: none;
-    display: inline-block;
-    margin-top: 15px;
-    margin-left: 10px;
+    display: block;
 }
 
 /* copyright */
@@ -116,22 +79,18 @@ footer {
 #footer #copyright {
     color: white;
     font-size: 12px;
-    margin-top: 25px;
-    display: inline-block;
+    display: block;
     vertical-align: middle;
-    margin-bottom: 220px;
-    margin-left: 10px;
 }
 
 /* centro de operaciones logisiticas */
 
 #footer #COL {
     color: white;
-    display: inline-block;
+    display: block;
     text-align: center;
     margin-left: 165px;
     vertical-align: middle;
-    margin-bottom: 200px;
 }
 
 #footer #COL .titulo {
@@ -151,14 +110,10 @@ footer {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    margin-bottom: 200px;
-    margin-left: 20px;
 }
 
 #footer #domicilio .titulo {
     font-size: 15px;
-    position: relative;
-    right: 107px;
 }
 
 #footer #domicilio .parrafo {
@@ -173,8 +128,6 @@ footer {
     display: inline-block;
     text-align: center;
     vertical-align: middle; 
-    margin-bottom: 185px;
-    margin-left: 20px;
 }
 
 #footer #tel-correo .titulo {
@@ -185,20 +138,8 @@ footer {
     font-size: small;
 }
 
-#footer #tel-correo .COL .domicilio .tel-correo {
-    margin-left: 60px;
-}
 
 /* qr-afip */
-
-#footer #qr-afip {
-    width: 60px;
-    height: auto;
-    display: block;
-    text-align: center;
-    margin-bottom: px;
-    margin-left: 400px;
-}
 
 /* REDES */
 
@@ -207,8 +148,6 @@ footer {
     background-color: #A0A4A4;
     border: solid 4px #000000;
     margin-bottom: 80px;
-    margin-left: 600px;
-    margin-right: 600px;
 }
 
 #main #redes .titulo {
@@ -256,8 +195,6 @@ footer {
     margin-bottom: 80px;
     border-style: solid;
     border-width: 4px;
-    margin-left: 500px;
-    margin-right: 500px;
     background-color: #A0A4A4;
 }
 
@@ -284,8 +221,6 @@ footer {
 #main #servicios {
     text-align: center;
     margin-bottom: 80px;
-    margin-left: 500px;
-    margin-right: 500px;
     border: solid 6px #000000;
     background-color: #A0A4A4;
 }
