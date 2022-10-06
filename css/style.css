@@ -87,7 +87,6 @@ main {
     color: white;
     font-size: 12px;
     display: block;
-    vertical-align: middle;
 }
 
 /* centro de operaciones logisiticas */
@@ -97,7 +96,6 @@ main {
     display: block;
     text-align: center;
     margin-left: 165px;
-    vertical-align: middle;
 }
 
 #footer #COL .titulo {
