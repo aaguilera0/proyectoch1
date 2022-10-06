@@ -2,8 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   font-family: sans-serif;
 }
+
+/* FUENTES */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/Noto-Sans-Mono-Regular') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
 
 /* GLOBALES */
 
@@ -37,13 +45,12 @@ main {
 }
 
 
-
 /* FOOTER */
 
-container-footer {
+.container-footer {
     display: grid;
-
 }
+
 
 #footer {
     background-color: #072146;
