@@ -1,0 +1,613 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* FUENTES */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/Noto-Sans-Mono-Regular') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+/* GLOBALES */
+
+body {
+    background: beige;
+}
+
+main {
+    background-color: beige;
+}
+
+/* HEADER */
+
+#header {
+    background: linear-gradient(#82bdcf,#072146);
+    width: 100%;
+    height: auto;
+
+        & .logo{
+            width: 125px;
+            height: auto;
+            margin-top: 20px;
+            margin-left: 20px;
+         }
+        & .titulo {
+            display: inline-block;
+         }
+}
+
+/* FOOTER */
+
+.container-footer {
+    display: grid;
+}
+
+
+#footer {
+    background-color: #072146;
+    width: 100%;
+    height: auto;
+
+    #intro .footer-logo {
+        width: 110px;
+        height: auto;
+    }
+    #intro .footer-titulo {
+        color: white;
+        font-size: 25px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    #app a {
+        color: aliceblue;
+        font-size: 14px;
+        text-decoration: none;
+        display: block;
+    }
+    #copyright {
+        color: white;
+        font-size: 12px;
+        display: block;
+    }
+    #COL {
+        color: white;
+        display: block;
+        text-align: center;
+        margin-left: 165px;
+    }
+    #COL .titulo {
+        font-size: 15px;
+    }
+    #COL .parrafo {
+        font-size: small;
+    }
+    #domicilio {
+        color: white;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+    }
+    #domicilio .titulo {
+        font-size: 15px;
+    }
+    #domicilio .parrafo {
+        font-size: small;
+    }
+    #tel-correo {
+        color: white;
+        border: 4px solid #072146;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle; 
+    }
+    #tel-correo .titulo {
+        font-size: 15px;
+    }
+    #tel-correo .parrafo {
+        font-size: small;
+    }
+}
+
+#main {
+    
+    #redes {
+        text-align: center;
+        background-color: #A0A4A4;
+        border: solid 4px #000000;
+        margin-bottom: 80px;
+    }
+    #redes .titulo {
+        color: #072146;
+        margin-top: 70px;
+        font-size: 30px;
+    }
+    #redes .subtitulo {
+        color: #072146;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    #redes .logos {
+        margin-top: 50px;
+        text-align: center;
+        word-spacing: 35px;
+        margin-bottom: 15px;
+        .fb {
+            width: 54px;
+            height: 54px;
+        }
+        .ig {
+            width: 55px;
+            height: 54px; 
+        }
+        .linkedin {
+            width: 73px;
+            height: 70px;
+        }
+    }
+    #cotizacion {
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        border-style: solid;
+        border-width: 4px;
+        background-color: #A0A4A4;
+    }
+    #cotizacion .titulo {
+        color: #072146;
+        margin-top: 90px;
+        font-size: 35px;
+    }
+    #cotizacon .parrafo {
+        margin-top: 80px;
+        font-size: 25px; 
+    }
+    #cotizacion .solicitar {
+        margin-top: 90px;
+        margin-bottom: 120px;
+        width: 110px;
+        height: 50px;
+    }
+    #servicios {
+        text-align: center;
+        margin-bottom: 80px;
+        border: solid 6px #000000;
+        background-color: #A0A4A4; 
+    }
+    #servicios .titulo {
+        color: #072146;
+        margin-top: 90px;
+        font-size: 35px; 
+    }
+    #servicios .lista1 {
+        margin-top: 80px;
+        display: inline-block;
+        width: 250px;
+        height: auto;
+        margin-bottom: 50px;
+        margin-right: 40px;
+        text-align: start;
+        font-size: 20px;
+        li {
+            line-height: 30px;
+        }
+    }
+    #servicios .lista2 {
+        margin-top: 80px;
+        display: inline-block;
+        width: 250px;
+        height: auto;
+        margin-bottom: 50px;
+        margin-left: 30px;
+        text-align: start;
+        font-size: 20px;
+        li {
+            line-height: 30px; 
+        }
+    }
+    
+}
+
+/* MONITOREO */
+
+#main {
+    .titulo-monitoreo {
+        font-size: 35px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+        color: #072146;
+    }
+    #monitoreo-rastreo {
+        background-color: #34537E;
+        margin-top: 100px;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-bottom: 100px;
+    }
+    #monitoreo .imagen-monitoreo {
+        border: solid 4px #A0A4A4;
+        background-color: #A0A4A4;
+        width: 225px;
+        height: 238px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 100px;
+    }
+    #monitoreo .lista-monitoreo {
+        display: inline-block;
+        width: 250px;
+        height: auto; 
+        padding-left: 50px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        font-size: 18px;
+        color: white;
+    }
+    #rastreo .imagen-rastreo {
+        border: solid 4px #A0A4A4;
+        background-color: #A0A4A4;
+        width: 225px;
+        height: 238px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        margin-left: 100px; 
+    }
+    #rastreo .lista-rastreo {
+        display: inline-block;
+        width: 250px;
+        height: auto;
+        padding-left: 50px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        font-size: 18px;
+        color: white;
+    }
+}
+
+/* LOGÍSTICA */
+
+#main {
+    .titulo-logistica{
+        font-size: 35px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+        color: #072146; 
+    }
+    #flotas {
+        border: solid black;
+        background-color: #34537E;
+        margin-top: 100px;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-bottom: 100px;
+    }
+    #flotas .subtitulo {
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 550px;
+        border: solid 20px #A0A4A4;
+        background-color: #A0A4A4;
+        color: white;  
+    }
+    #flotas #hi {
+        border: solid 4px #A0A4A4;
+        background-color: #A0A4A4;
+        padding: 10px;
+        margin: 60px;
+        .camion1 {
+            width: 312px;
+            height: 220px;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border: solid 20px white;
+        }
+        .parrafo-camion1 {
+            margin-left: 20px;
+        }
+    }
+    #flotas #stralis {
+        border: solid 4px #A0A4A4;
+        background-color: #A0A4A4;
+        margin: 60px;
+        .camion2 {
+            width: 312px;
+            height: 220px;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border: solid 20px white;
+        }
+        .parrafo-camion2 {
+            margin-left: 20px;
+        }
+    }
+    #flotas #scania {
+        border: solid 4px #A0A4A4;
+        background-color: #A0A4A4;
+        margin: 60px;
+        .camion3 {
+            width: 312px;
+            height: 220px;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border: solid 20px white;
+        }
+        .parrafo-camion3 {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+/* SOBRE NOSOTROS */
+
+/* sobre nosotros - historia */
+
+#main {
+    #sobre-nosotros .titulo{
+        font-size: 35px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+        color: #072146; 
+    }
+    #nav-nosotros{
+        a:hover {
+            text-align: start;
+            margin-left: 50px;
+            transition: 1s;  
+        }
+        .historia {
+            display: block;
+            margin-top: 100px;
+            border: solid 8px #34537E;
+            background-color: #34537E;
+            width: 325px;
+            text-decoration: none;
+            color: white; 
+        }
+        .mision-vision-valores {
+            display: inline-block;
+            margin-top: 20px;
+            border: solid 8px #D9D9D9;
+            background-color: #D9D9D9;
+            width: 325px;
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+    #nuesta-historia {
+        margin-top: 50px;
+        margin-left: 500px;
+        margin-right: 150px;
+        margin-bottom: 110px;
+        & .titulo {
+            margin-top: 10px;
+            color: #072146;
+        }
+        & .parrafo {
+            line-height: 2.5;
+            color: #072146;
+            margin-top: 40px;
+        }
+    }
+}
+
+/* sobre nosotros - misión, visión y valores */
+
+#main {
+    #nav-nosotros2{
+        a:hover {
+            text-align: start;
+            margin-left: 50px;
+            transition: 1s;  
+        }
+        .historia {
+            display: block;
+            margin-top: 100px;
+            border: solid 8px #D9D9D9;
+            background-color: #D9D9D9;
+            width: 325px;
+            text-decoration: none;
+            color: black; 
+        }
+        .mision-vision-valores {
+            display: inline-block;
+            margin-top: 20px;
+            border: solid 8px #34537E;
+            background-color: #34537E;
+            width: 325px;
+            text-decoration: none;
+            color: white;
+        }
+    }
+    #mision-vision-valores {
+        margin-left: 500px;
+        margin-right: 150px;
+        margin-bottom: 110px;
+        color: #072146;
+        #mision {
+            .titulo {
+                margin-top: 40px;
+            }
+            .parrafo {
+                margin-top: 10px;
+            }
+        }
+        #vision {
+            .titulo {
+                margin-top: 30px;
+            }
+            .parrafo {
+                margin-top: 10px;
+            }
+        }
+        #valores {
+            .titulo {
+                margin-top: 30px;
+            }
+            .parrafo1 {
+                margin-top: 10px;
+            }
+            .parrafo2 {
+                margin-top: 20px;
+            }
+            .lista-valores {
+                margin-top: 30px;
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+/* CONTACTO */
+ 
+#main {
+    .contacto {
+        font-size: 35px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+        color: #072146;
+    }
+    #direcciones {
+        border: solid 6px #34537E;
+        background-color: #34537E;
+        width: 326px;
+        height: 630px;
+        color: white;
+        display: inline-block;
+        margin-top: 60px;
+        margin-left: 20px;
+        text-align: center; 
+        #oficinas {
+            .titulo {
+                margin-top: 30px;
+            }
+            .parrafo {
+                margin-top: 10px;
+            }
+            .mapa {
+                margin-top: 20px;
+                display: inline-block;
+            }
+        } 
+        #logistica {
+            .titulo {
+                margin-top: 20px;
+            }
+            .mapa {
+                margin-top: 30px;
+            }
+        }
+    }
+    #casilla-consultas {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 16px;
+        margin-left: 40px;
+        color: #072146;
+        .parrafo {
+            margin-top: 70px;
+            overflow: hidden;
+            white-space: nowrap;
+            margin-left: 40px;
+            margin-right: 50px;
+        }
+        .casillas {
+            border: solid 5px #34537E;
+            background-color: #34537E;
+            width: 826px;
+            height: 658px;
+            margin-top: 50px;
+            margin-left: 160px;
+            margin-bottom: 100px;
+            .nombre {
+                border: solid 8px white;
+                background-color: white;
+            }
+            .empresa {
+                border: solid 8px white;
+                background-color: white;
+            }
+            .email {
+                border: solid 8px white;
+                background-color: white;
+            }
+            .telefono {
+                border: solid 8px white;
+                background-color: white;
+            }
+            .asunto {
+                border: solid 8px white;
+                background-color: white;
+            }
+            .mensaje {
+                border: solid 8px white;
+                background-color: white;
+            }
+            .boton {
+                margin-top: 90px;
+                margin-bottom: 120px;
+                width: 95px;
+                height: 35px;
+            }
+        }
+    }
+}
+
+/* MI CUENTA */
+
+#main {
+    .cuenta {
+        font-size: 35px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+        color: #072146;
+    }
+    #ingresar {
+        border: solid 4px #34537E;
+        background-color: #34537E;
+        width: 872px;
+        height: 651px;
+        color: white; 
+        margin: 70px 530px 100px 530px;
+        .titulo {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .casillas {
+            margin-top: 90px;
+            .email {
+                border: solid 8px white;
+                background-color: white;
+            }
+            .password {
+                border: solid 8px white;
+                background-color: white;
+            }
+            .restaurar {
+                text-decoration: none;
+                color: white;
+                font-size: small;
+            }
+            .boton {
+                width: 95px;
+                height: 35px; 
+            }
+            .registrar {
+                text-decoration: none;
+                font-size: small;
+            }
+        }
+    }
+}
